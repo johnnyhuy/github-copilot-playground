@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CopilotDemo
+namespace Playground
 {
     class Program
     {
