@@ -8,13 +8,14 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "github.copilot",
-                "vsls-contrib.codetour",
-                "ms-vscode.vscode-typescript-next",
-                "dsznajder.es7-react-js-snippets",
-                "ms-dotnettools.vscode-dotnet-pack",
-                "ms-python.python"
-            ]
+				"github.copilot",
+				"vsls-contrib.codetour",
+				"ms-vscode.vscode-typescript-next",
+				"dsznajder.es7-react-js-snippets",
+				"ms-dotnettools.vscode-dotnet-pack",
+				"ms-python.python",
+				"ms-dotnettools.csdevkit"
+			]
         }
     }
 }

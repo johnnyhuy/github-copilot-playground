@@ -1,0 +1,66 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userprefs
+*.vscode
+
+# Ignore build and publish files
+*.swp
+*.swo
+*.sln.ide
+*.sln.docstates
+*.sln.cache
+*.sln.dotsettings
+
+# Ignore Visual Studio files
+.vs/
+*.vscode/
+*.vssettings
+*.vssscc
+*.vsmdi
+*.vsmacros
+*.vspscc
+*.vstemplate
+*.vstemplatex
+*.vsz
+*.vssscc
+*.vsix
+*.vsixmanifest
+*.vsmdi
+*.vspscc
+*.vssscc
+*.vstemplate
+*.vstemplatex
+*.vsz
+*.vsix
+*.vsixmanifest
+
+# Ignore ReSharper files
+_ReSharper*/
+*.ReSharper*
+*.DotSettings.user
+*.ReSharper.user
+*.ReSharper.sln.dotsettings
+*.ReSharper.sln.dotsettings.user
+*.ReSharper.sln.user
+*.ReSharper.user
+
+# Ignore Rider files
+.idea/
+*.sln.iml
+*.ipr
+*.iws
+*.iml
+*.resharper.user
+*.resharper
+*.rider
+*.rider.user
