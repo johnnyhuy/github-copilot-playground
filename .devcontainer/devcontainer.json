@@ -3,19 +3,33 @@
     "hostRequirements": {
         "cpus": 4
     },
-    "name": "Try Copilot",
+    "name": "GitHub Copilot Playground",
     "postCreateCommand": "sudo cp --force ./.devcontainer/welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt",
     "customizations": {
         "vscode": {
             "extensions": [
-				"github.copilot",
-				"vsls-contrib.codetour",
-				"ms-vscode.vscode-typescript-next",
-				"dsznajder.es7-react-js-snippets",
-				"ms-dotnettools.vscode-dotnet-pack",
-				"ms-python.python",
-				"ms-dotnettools.csdevkit"
-			]
+                "github.copilot",
+                "vsls-contrib.codetour",
+                "ms-vscode.vscode-typescript-next",
+                "dsznajder.es7-react-js-snippets",
+                "ms-dotnettools.vscode-dotnet-pack",
+                "ms-python.python",
+                "ms-dotnettools.csdevkit"
+            ]
+        },
+        "codespaces": {
+            "openFiles": [
+                "READMNE.md"
+            ]
         }
-    }
+    },
+    "portsAttributes": {
+        "3000": {
+            "label": "React Demo",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "forwardPorts": [
+        3000
+    ]
 }
