@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Collections.Generic;
 
-namespace Playground
+namespace FlappyBird
 {
     class Program
     {
