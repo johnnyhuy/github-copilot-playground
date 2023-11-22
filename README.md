@@ -17,38 +17,30 @@ To use this repository, clone it to your local machine and navigate into the dir
 
 ### .NET
 
-Navigate into the `dotnet/` directory and choose a project. For example, to run the FlappyBird game:
-
 ```sh
-cd dotnet/FlappyBird
+cd playground/dotnet/FlappyBird
 dotnet run
 ```
 
 ### Java
 
-Navigate into the `java/` directory and compile and run the Main.java file:
-
 ```sh
-cd java/fibonacci
+cd playground/java/fibonacci
 javac Main.java
 java Main
 ```
 
 ### Python
 
-Navigate into the `python/` directory and run a script. For example, to run the donut animation:
-
 ```sh
-cd python
+cd playground/python
 python donut.py
 ```
 
 ### React
 
-Navigate into the `react/` directory and install the dependencies and start the application:
-
 ```sh
-cd react
+cd playground/react
 npm install
 npm start
 ```
