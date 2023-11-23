@@ -57,6 +57,14 @@ npm install
 npm start
 ```
 
+### React
+
+```sh
+cd playground/react
+npm install
+npm start
+```
+
 The React application will be available at `http://localhost:3000`.
 
 ## Contributing
