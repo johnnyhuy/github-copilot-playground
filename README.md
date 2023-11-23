@@ -57,10 +57,10 @@ npm install
 npm start
 ```
 
-### React
+### Node.js
 
 ```sh
-cd playground/react
+cd playground/nodejs
 npm install
 npm start
 ```
