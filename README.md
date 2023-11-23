@@ -22,6 +22,11 @@ cd playground/dotnet/FlappyBird
 dotnet run
 ```
 
+```sh
+cd playground/dotnet/Playground
+dotnet run
+```
+
 ### Java
 
 ```sh
