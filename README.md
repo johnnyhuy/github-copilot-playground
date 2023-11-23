@@ -39,7 +39,14 @@ java Main
 
 ```sh
 cd playground/python
+pip install -r requirements.txt
 python donut.py
+```
+
+```sh
+cd playground/python
+pip install -r requirements.txt
+python playground.py
 ```
 
 ### React
