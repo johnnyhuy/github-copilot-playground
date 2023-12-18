@@ -1,3 +1,5 @@
+# Hint: press Ctrl+A & Ctrl+I and explain me with /explain
+
 import numpy as np
 
 screen_size = 40

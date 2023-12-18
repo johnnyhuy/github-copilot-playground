@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-public class Product
+﻿public class Product
 {
     public int Id { get; set; }
     public string Name { get; set; }
@@ -13,20 +9,13 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        List<Product> products = new List<Product>
-        {
-            new Product { Id = 1, Name = "Apple", Price = 1.00m },
-            new Product { Id = 2, Name = "Banana", Price = 0.50m },
-            new Product { Id = 3, Name = "Cherry", Price = 0.75m }
-        };
+        // Hint: type the word 'var'
+        // Create a list of 10 exotic fruit products priced at less than $20.00
 
-        var filteredProducts = products.Where(p => p.Price < 1.00m)
-                                       .OrderBy(p => p.Name)
-                                       .ToList();
+        // Hint: type the word 'var'
+        // Filter list of products to only those priced at less than $5.00
 
-        foreach (var product in filteredProducts)
-        {
-            Console.WriteLine($"Product: {product.Name}, Price: {product.Price}");
-        }
+        // Hint: type the word 'for'
+        // Print the filtered list
     }
 }
