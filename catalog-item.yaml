@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-copilot-playground
+  title: GitHub Copilot Playground
+  description: A GitHub Copilot Playground for testing out GitHub Copilot
+  tags:
+    - github
+    - copilot
+spec:
+  type: library
+  lifecycle: experimental
+  owner: johnnyhuy
