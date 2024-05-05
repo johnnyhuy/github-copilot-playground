@@ -5,8 +5,7 @@ metadata:
   title: GitHub Copilot Playground
   description: A GitHub Copilot Playground for testing out GitHub Copilot
   tags:
-    - github
-    - copilot
+    - ai
 spec:
   type: library
   lifecycle: experimental
